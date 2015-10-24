@@ -1,0 +1,78 @@
+.contact
+	padding: 30px 20px
+
+
+	h2
+		font-size: 20px
+		color: #af684b
+		text-align: center
+
+
+.emailme
+
+
+	form 
+
+		display: flex
+		flex-wrap: wrap 
+
+	
+
+	max-width: 620px
+
+	margin: 0 auto
+
+	input
+		display: block
+		width: 300px
+		margin-bottom: 20px
+		padding: 5px
+		box-sizing: border-box
+
+		border: 2px solid transparentize(#af684b,0.5)
+
+		&:nth-child(2)
+			margin-left: 20px
+		&:focus
+			outline: none
+
+
+
+	textarea
+		display: block
+		width: 100%
+		height: 180px
+		
+		border: 2px solid transparentize(#af684b,0.5)
+		box-sizing: border-box
+
+		&:focus
+			outline: none
+
+
+	.send
+		margin-top: 15px
+		width: 300px
+		padding: 10px
+		text-align: center
+		background: #fd4f08
+		color: white
+		display: block
+		border: none
+		border-radius: 5px
+		text-transform: uppercase
+
+@media (max-width: 620px)
+
+	.emailme
+		input
+
+			width: 100%
+			&:nth-child(2)
+				margin-left: 0px		
+
+
+
+
+
+
