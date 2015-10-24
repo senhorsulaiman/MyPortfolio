@@ -2,7 +2,7 @@
 .work
 
 	padding: 30px 20px
-	background: #eee
+	background: $greyish
 
 
 
@@ -45,26 +45,14 @@
 		background: 
 			position: center
 			size: cover
-		border: 5px solid #f4f4f4
+		border: 5px solid white
 		cursor: pointer
 		transition: all 0.4s ease-in-out
 
 		&:hover
-			border: 5px solid $highlight
+			border: 5px solid lighten( $purple, 25% )
 
-	.pro1
-		background: 
-			image: url(/assets/images/tmc.jpg)
-	.pro2
-		background: 
-			image: url(/assets/images/tmc-event.jpg)
-	.pro3
-		background: 
-			image: url(/assets/images/splashpage.jpg)
-
-	.pro4
-		background: 
-			image: url(/assets/images/black-bird.jpg)
+	
 
 
 
@@ -76,7 +64,7 @@
 
 
 	.title
-		color: #666
+		color: $darkgrey
 		font-size: 1em
 		margin:  0px
 		padding: 20px 0px
