@@ -4,16 +4,18 @@
 
 	<div class="emailme">
 
-		<form >
+		<form  method="POST" action="//formspree.io/senhorsulaiman@gmail.com">
 
 			<input type="text" placeholder="Name">
-			<input type="email"  placeholder="Email">
+			<input type="email"  placeholder="Email" name="_replyto">
+			<input type="hidden" name="_subject" value="Email From my portfolio site" />
+			<input type="hidden" name="_next" value="//senhorsulaiman.github.io/MyPortfolio#contact" />
 			<textarea >
 
 
 			</textarea >
 
-			<button type="submit" class="send">Send</button>
+			<button type="submit" class="send" value="Send">Send</button>
 
 
 
