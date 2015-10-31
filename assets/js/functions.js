@@ -38,7 +38,10 @@ $(".projectshow").on('click',function(){
 
 
 
+
 });
+
+
 
 
 
@@ -63,6 +66,24 @@ $('.back').on('click',function(event){
 
 });
 
+
+
+
+$('.send').on('click',function(){
+
+  console.log('hey ');
+
+
+ // $('.contact-overlay').addClass('success');
+
+
+
+
+
+
+
+
+});
 
 
 smoothScroll(1000);
